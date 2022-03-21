@@ -10,17 +10,11 @@ name: Build OpenWrt 21.02.2
 
 on:
   repository_dispatch:
-#  release:
-#    types: published
-#    push:
-#    branches:
-#      - master
-#    paths:
-#      - '.config'
-#  schedule:
-#    - cron: 0 8 * * 5
-  watch: 
-     types: started
+  workflow_dispatch:
+    inputs:
+ 
+  #schedule:
+  #  - cron: 0 8 * * 5
 
 env:
   REPO_URL: https://git.openwrt.org/openwrt/openwrt.git
