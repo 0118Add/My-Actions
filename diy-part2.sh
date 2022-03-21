@@ -33,3 +33,6 @@ chmod a+x -R package/Panzy
 # rm -rf package/feeds/packages/golang
 # cp -rf package/Panzy/golang feeds/packages/lang/golang
 # rm -rf package/Panzy/golang
+rm -rf feeds/luci/applications/luci-app-aria2
+rm -rf feeds/luci/applications/luci-app-ddns
+rm -rf feeds/luci/applications/luci-app-samba4
