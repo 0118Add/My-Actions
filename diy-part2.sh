@@ -25,6 +25,7 @@ mv package/Panzy/ucl tools/ucl
 # Fix permission
 chmod a+x -R package/Panzy
 
+rm -rf feeds/luci/applications/luci-app-frpc
 # fix unblockmusic
 # chmod a+x package/Panzy/luci-app-unblockneteasemusic/root/etc/init.d/unblockneteasemusic
 # rm -rf package/feeds/packages/kcptun
